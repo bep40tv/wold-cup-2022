@@ -50,19 +50,24 @@ header {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 25px;
+  margin-top: 20px;
 
   h1 {
     font-size: 1.25rem;
   }
 }
 
+.left-nav {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
 .logo {
   display: block;
-  margin-top: 20px;
-  width: 80px;
+  width: 50%;
   height: 80px;
-  margin-right: -8%;
-  background-image: url(/images/logo.png);
+  background-image: url(/images/logo_qatar.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -75,12 +80,6 @@ header {
   justify-content: start;
   margin-left: 0.5rem;
   color: #fff;
-}
-
-@media (max-width: 800px) {
-  header {
-    flex-direction: column;
-  }
 }
 
 nav {
@@ -103,6 +102,37 @@ nav {
         }
       }
     }
+  }
+}
+
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .left-nav {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .logo {
+    margin-top: 10px;
+    width: 90%;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav {
+    width: 80%;
+  }
+
+  nav ul li a {
+    padding: 0.4rem;
   }
 }
 
