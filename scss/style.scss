@@ -105,7 +105,16 @@ nav {
   }
 }
 
+/* main .tela-principal */
+.telaPrincipal {
+  padding: 0 6rem 3rem;
+}
+
 @media (max-width: 800px) {
+  .telaPrincipal {
+    padding: 0 2rem 2rem;
+  }
+
   header {
     flex-direction: column;
     width: 100%;
@@ -134,11 +143,6 @@ nav {
   nav ul li a {
     padding: 0.4rem;
   }
-}
-
-/* main .tela-principal */
-.telaPrincipal {
-  padding: 0 6rem 3rem;
 }
 
 #divGrupo {
