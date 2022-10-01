@@ -110,41 +110,6 @@ nav {
   padding: 0 6rem 3rem;
 }
 
-@media (max-width: 800px) {
-  .telaPrincipal {
-    padding: 0 2rem 2rem;
-  }
-
-  header {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .left-nav {
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 15px;
-  }
-
-  .logo {
-    margin-top: 10px;
-    width: 90%;
-  }
-
-  .menu {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  nav {
-    width: 80%;
-  }
-
-  nav ul li a {
-    padding: 0.4rem;
-  }
-}
-
 #divGrupo {
   margin-bottom: 60px;
 }
@@ -240,10 +205,10 @@ footer {
 }
 
 .btn {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
-  margin: 1rem;
+  margin: 1.2rem;
   border: none;
 
   display: flex;
@@ -328,4 +293,49 @@ h3 a {
 }
 ::-webkit-scrollbar-thumb {
   background: #fff;
+}
+
+@media (max-width: 800px) {
+  .telaPrincipal {
+    padding: 0 2rem 2rem;
+  }
+
+  header {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .left-nav {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .logo {
+    margin-top: 10px;
+    width: 90%;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav {
+    width: 80%;
+  }
+
+  nav ul li a {
+    padding: 0.4rem;
+  }
+
+  .btn {
+    width: 4rem;
+    height: 4rem;
+    margin: 3rem 1.2rem;
+  }
+
+  .btnTopo {
+    font-size: 1.8rem;
+  }
 }
